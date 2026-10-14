@@ -21,9 +21,6 @@ values over [UART / debugger / etc.].
 
 I2C address: `0x68`
 
-Pull-up resistors on SDA and SCL are required. Most breakout modules
-include them. If yours does not, add 4.7 kΩ resistors to 3V3.
-
 ## Project structure
 The STM32CubeIDE project is located in the `SEN0142/` folder.
 The CubeMX configuration is in `SEN0142/SEN0142.ioc`.
@@ -32,9 +29,6 @@ The CubeMX configuration is in `SEN0142/SEN0142.ioc`.
 1. Open STM32CubeIDE and choose **File → Open Projects from File System**.
 2. Select the `SEN0142/` folder.
 3. Build the project (Ctrl+B) and flash it to the board.
-
-## Usage
-[Describe how to read the sensor, e.g. which function to call and what it returns.]
 
 ## License
 MIT
