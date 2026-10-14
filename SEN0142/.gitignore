@@ -1,0 +1,10 @@
+ebug/
+Release/
+.settings/
+*.launch
+.DS_Store
+Debug/
+Release/
+.settings/
+*.launch
+.DS_Store
